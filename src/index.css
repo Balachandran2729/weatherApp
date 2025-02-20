@@ -1,13 +1,123 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border-bottom: 3px solid #000;
+}
+
+form input {
+  justify-content: center;
+  align-items: center;
+  margin: 50px 10px 50px 0px;
+  padding: 10px;
+  width: 300px;
+  height: 20px;
+  border: 2px solid #000;
+  border-radius: 30px;
+  text-align: center;
+  font-weight: bolder;
+}
+button {
+  padding: 10px 20px;
+  background-color: #0fc8e9;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+.city {
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto; 
+  font-weight: bolder;
+  border: 2px solid #000;
+  border-radius: 30px;
+  padding: 5px;
+  width: 300px;
+}
+
+.city h1 {
+  font-size: 20px;
+}
+
+.city p {
+  font-size: 30px; 
+  margin-top: 5px;
+}
+
+.important-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.important-data div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  min-width: 200px;
+  flex: 1;
+}
+
+.important-data h1 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.important-data p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.other-data {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 10px auto;
+  width: 90%;
+  max-width: 1200px;
+}
+
+.other-data div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #ffffff;
+  border: 2px solid #000;
+  border-radius: 15px;
+  min-width: 200px;
+  flex: 1;
+}
+
+.other-data h1 {
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.other-data p {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
 }
