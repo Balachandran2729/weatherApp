@@ -28,7 +28,7 @@ function App() {
   }, [city]);
 
   return (
-    <div className='.App'>
+    <div>
       <Feach
         searchCity={searchCity}
         setSearchCity={setSearchCity}
